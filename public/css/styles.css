@@ -1,0 +1,335 @@
+html, body, .wrapper { 
+    height: 100%; 
+}
+body > .wrapper { 
+    height: auto; 
+    min-height: 90.9%; 
+}
+.abortWrapper{
+    display:inline-block;
+    border:1px solid black;
+    background:pink;
+    border-radius: 10px;
+    list-style: none;
+    margin-left:20%;
+    margin-top: 3%;
+    padding:3%;
+}
+
+.abort div{
+    padding:10px;
+    
+}
+.error{
+    margin-left:-4%;
+    width:500px;
+    border:1px solid black;
+    background:pink;
+    border-radius: 10px;
+    list-style: none;
+    padding-top:10px;
+    
+}
+.error ul{
+    text-align: center;
+    list-style: none;
+}
+.contentWrapper{
+    margin-left: 37%;
+    margin-top:2%;
+    padding-bottom:5%;
+}
+#required{
+/*    color:#090;*/
+    font-weight: bold;
+    font-size: 14pt;
+}
+#date{
+    font-size: 8pt;
+}
+#topic{
+    font-size:15pt;
+}
+#text{
+    font-size:10pt;
+}
+
+/*Header and Main Menu*/
+#logo{
+    float:left;
+    font-size: 18pt;
+    color:white;
+    margin:20px 0px 20px 50px;
+    font-family: oswald;
+}
+.headerWrap{
+    width: 100%;
+    border:1px solid black;
+    background: #05B2D2;
+}
+.headerWrap ul{
+    list-style: none;
+    margin-left:75%;
+    margin-top: 1%;
+}
+
+.headerWrap ul li{
+    display: inline-block;
+    margin-right:5%;
+    padding:5% 0%;
+    font-size: 13pt;
+}
+.headerWrap ul li a{
+    color:white;
+}
+
+/*UserMenu*/
+.userMenuWrapper{
+    width:250px;
+    border-radius: 10px;
+    float:left;
+    margin: 3% 0% 0% 3.5%;
+    border: 1px solid black;
+    background:#05B2D2;
+}
+
+.userMenuWrapper ul{
+    list-style:none;
+    margin-top: 5%;
+    margin-left: -3%;
+    padding-bottom: 3%;
+   
+}
+.userMenuWrapper ul li:before {
+     content: "\00BB \0020";
+}
+.userMenuWrapper ul li a{
+    color:white;
+    font-size: 12pt;
+}
+
+.userMenuWrapper h3{
+    color:white;
+    text-align: center;
+    font-size: 15pt;
+    
+}
+/*Authentication*/
+.authWrapper{
+    width:400px;
+    border-radius: 10px;
+    margin: 3% 0% 0% -10%;
+    border: 1px solid black;
+    background:#05B2D2;
+}
+.authWrapper form{
+    padding:5%;
+    margin-left: 25px;
+}
+.authWrapper div{
+    color:white;
+    padding:10px;
+}
+.authWrapper form input[type='password'],input[type='email'],input[type="text"]{
+    border:1px solid black;
+    border-radius: 5px;
+    width:200px;
+    height:30px;
+    margin-left:10px;
+    color:black;
+    padding:10px;
+}
+.authWrapper form input[type='email']{
+    margin-left:16px;
+}
+#submit{
+    color:black;
+    width:100px;
+    height:30px;
+    margin-left:55%;
+}
+
+/*Register*/
+
+.regWrapper{
+    width:500px;
+    border-radius: 10px;
+    margin: 3% 0% 0% -10%;
+    border: 1px solid black;
+    background:#05B2D2;
+}
+.regWrapper form{
+    padding:5%;
+    margin-left: 25px;
+}
+.regWrapper div{
+    color:white;
+    padding:10px;
+}
+.regWrapper form input[type='password'],input[type='email'],input[type="text"], input[type="number"]{
+    border:1px solid black;
+    border-radius: 5px;
+    width:200px;
+    height:30px;
+    color:black;
+    padding-left: 10px;
+}
+.regWrapper form input[type='email']{
+    margin-left:94px;
+}
+
+.regWrapper form input[type='password']{
+    margin-left:87px;
+}
+#password_confirm{
+    margin-left: 20px;
+}
+.regWrapper #submit{
+    margin-left: 61.5%;
+}
+
+/*Edit Profile*/
+#profileWrapper h2{
+    color:white;
+    text-align: center;
+}
+#profileWrapper form{
+    margin-left: 10%;
+}
+#profileWrapper form input[type="text"]{
+    margin-left: 20%;
+}
+#profileWrapper form input[type="number"]{
+    margin-left:14%;
+}
+#profileWrapper input[type="number"]::-webkit-outer-spin-button,
+                input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+#profileWrapper #last_name{
+    margin-left:11%;
+}
+#profileWrapper #profession{
+    margin-left:9%;
+}
+#profileWrapper #city{
+    margin-left:19%;
+}
+#profileWrapper #submit{
+    margin-left:55%;
+}
+#profileWrapper input[type="radio"]{
+    margin-left:20%;
+}
+#profileWrapper #female{
+    margin-left: 25%;
+}
+/*New Post*/
+.postArticleWrapper{
+    width:600px;
+    border-radius: 10px;
+    margin: 3% 0% 0% -10%;
+    border: 1px solid black;
+    background:#05B2D2;
+}
+.postArticleWrapper h2{
+    color:white;
+    text-align: center;
+}
+.postArticleWrapper form{
+    padding:10px;
+    margin-left: 5%;
+}
+.postArticleWrapper form div{
+    padding-bottom: 10px;
+    color:white;
+}
+.postArticleWrapper input[type="text"],#select{
+    color:black;
+    margin-left:20%;
+    border-radius: 5px;
+}
+.postArticleWrapper #select{
+    width:200px;
+    height:30px;
+    margin-left: 14%;
+    border:1px solid black;
+}
+.postArticleWrapper #submit{
+    margin-left:77%;
+    color:black;
+}
+/*My Articles*/
+.myArticlesWrapper h1{
+    margin-left: 3%;
+}
+.myArticlesWrapper table td{
+    padding:5px;
+}
+.myArticlesWrapper table th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Articles View*/
+.viewArticleWrapper{
+    margin-left:-6%;
+    width:500px;
+    text-align: center;
+}
+.viewArticleWrapper div{
+    font-size: 8pt;
+    color:#979797;
+}
+.viewArticleWrapper p{
+    font-size: 15pt;
+}
+
+/*Profiles View*/
+.profileView{
+    width:500px;
+}
+
+.profileView h1{
+    text-align: center;
+}
+.profileView #info{
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+}
+
+
+/*Index Page*/
+
+.asideRight{
+    width:300px;
+    margin-left:58%;
+}
+
+.asideRight h2{
+    text-align: center;
+}
+#lastArticles{
+    width:400px;
+    float:left;
+    margin-left:-5%;
+    margin-top: -2%;
+}
+
+/*Footer*/
+.footer{
+    width:100%;
+    background:#05B2D2;
+    border:1px solid black;
+    padding:1%;
+    color:white;
+    text-align: center;
+}
+.footer p{
+    margin-top:1%;
+}
+
